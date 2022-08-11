@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Alfa+Slab+One&family=BhuTuka+Expanded+One&family=Caveat&family=Cinzel&family=Comforter+Brush&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Indie+Flower&family=Kanit:wght@100;400&family=League+Gothic&family=Lobster&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;1,300&family=Shadows+Into+Light&family=Source+Code+Pro:wght@200&family=Syne+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     transition: all 0.3s linear;
+}

@@ -1,0 +1,27 @@
+.addForm,.EditForm{
+     position: absolute;
+     transform: translate(-50%,-50%);
+     top: 50%;
+     left: 50%;
+     width: 20rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 4rem 1rem;
+     gap: 1.5rem;
+     background-color: #30929f;
+     z-index: 10;
+     border-radius: 5px;
+}
+.EditForm{
+     background-color: #1e87bf;
+}
+.addForm input{
+     padding: 0 0.7rem;
+     width: 100%;
+     border: 1px solid gray;
+}
+.addForm input:focus{
+     outline: none;
+}
